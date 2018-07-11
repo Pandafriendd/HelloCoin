@@ -124,13 +124,6 @@ contract HelloCoin is ERC20Interface, Owned, SafeMath {
         return balances[tokenOwner];
     }
 
-    //****************************************************************************************************
-    //%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    // function allBalances() public constant returns (mapping(address => uint)) {
-    //     return balances;
-    // } 
-
 
     // ------------------------------------------------------------------------
     // Transfer the balance from token owner's account to to account
